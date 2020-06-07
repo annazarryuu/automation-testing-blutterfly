@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="app.login" template="/WEB-INF/jsp/tiles/login.jsp"></definition>
+	<definition name="app.forgotPassword" template="/WEB-INF/jsp/tiles/forgotPassword.jsp"></definition>
+	<definition name="app.registrasi" template="/WEB-INF/jsp/tiles/registrasi.jsp"></definition>
+	<definition name="app.role" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Role" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/role.jsp" />
+	</definition>
+	<definition name="app.dashboard" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Dashboard" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/dashboard.jsp" />
+	</definition>
+	<definition name="app.userVerification" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="User Verification" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/userVerification.jsp" />
+	</definition>
+	<definition name="app.user" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="User Management" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/user.jsp" />
+	</definition>
+	<definition name="app.userForm" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="User Management" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/userForm.jsp" />
+	</definition>
+	<definition name="app.book" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Book Management" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/book.jsp" />
+	</definition>
+	<definition name="app.bookForm" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Book Form" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/bookForm.jsp" />
+	</definition>
+	<definition name="app.bookDetail" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Book Management" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/bookDetail.jsp" />
+	</definition>
+	<definition name="app.bookFormMissing" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Book Management" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/bookFormMissing.jsp" />
+	</definition>
+	<definition name="app.katalog" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Katalog" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/katalog.jsp" />
+	</definition>
+	<definition name="app.katalogDetail" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Katalog" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/katalogDetail.jsp" />
+	</definition>	
+	<definition name="app.pinjam" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Peminjaman" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/TransaksiPeminjaman.jsp" />
+	</definition>	
+	<definition name="app.pinjamForm" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Loan Form" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/loanForm.jsp" />
+	</definition>	
+	<definition name="app.kembali" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Pengembalian" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/TransaksiPengembalian.jsp" />
+	</definition>	
+	<definition name="app.loanHistory" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Pengembalian" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/loanHistory.jsp" />
+	</definition>	
+	<definition name="app.loanInfo" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Loan Info" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/loanInfo.jsp" />
+	</definition>
+	<definition name="app.kembaliForm" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Pengembalian" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/kembaliForm.jsp" />
+	</definition>
+	<definition name="app.kembaliInfo" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Pengembalian" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/kembaliInfo.jsp" />
+	</definition>		
+	<definition name="app.profile" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="User Profile" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/profile.jsp" />
+	</definition>	
+	<definition name="app.changeProfile" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="Change Profile" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/changeProfile.jsp" />
+	</definition>	
+	<definition name="app.uploadProfilePicture" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="User Profile" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/uploadProfilePicture.jsp" />
+	</definition>	
+	<definition name="app.changePassword" template="/WEB-INF/jsp/layouts/layout.jsp">
+		<put-attribute name="title" value="User Profile" />
+		<put-attribute name="content" value="/WEB-INF/jsp/tiles/changepassword.jsp" />
+	</definition>	
+	
+</tiles-definitions>
