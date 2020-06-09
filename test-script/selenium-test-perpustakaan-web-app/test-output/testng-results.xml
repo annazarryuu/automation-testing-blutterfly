@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53572" started-at="2020-06-09T11:17:53 ICT" finished-at="2020-06-09T11:18:46 ICT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53572" started-at="2020-06-09T11:17:53 ICT" finished-at="2020-06-09T11:18:46 ICT">
+      <class name="test.LoginPageTest">
+        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:test.LoginPageTest@131276c2]" name="initWebDriver" is-config="true" duration-ms="14330" started-at="2020-06-09T11:17:53 ICT" finished-at="2020-06-09T11:18:07 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWebDriver -->
+        <test-method status="PASS" signature="loginAsAdminTest()[pri:0, instance:test.LoginPageTest@131276c2]" name="loginAsAdminTest" duration-ms="35953" started-at="2020-06-09T11:18:07 ICT" finished-at="2020-06-09T11:18:43 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsAdminTest -->
+        <test-method status="PASS" signature="closeWebDriver()[pri:0, instance:test.LoginPageTest@131276c2]" name="closeWebDriver" is-config="true" duration-ms="3162" started-at="2020-06-09T11:18:43 ICT" finished-at="2020-06-09T11:18:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- test.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
